@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "title": "Equatorial Oiled Services",
+    "description": "We developed a dynamic website for Equatorial Oiled Services, a leading oil and gas company in Cameroon.",
+    "image": "https://www.ndjockcodes.com/images/eq-os%20website.jpg",
+    "achievements": [
+      "Increased website traffic by 50%",
+      "Improved user engagement and conversions"
+    ],
+    "technologies": ["PHP", "Laravel", "MySQL", "HTML", "CSS"],
+    "link": "/projects/equatorial-os",
+    "slug": "equatorial-os"
+  },
+  {
+    "id": "2",
+    "title": "FindHome",
+    "description": "A real estate platform that connects buyers and sellers in Cameroon.",
+    "image": "https://www.ndjockcodes.com/images/find-home.jpg",
+    "achievements": [
+      "Increased user registrations by 30%",
+      "Streamlined property search and listing process"
+    ],
+    "technologies": ["Dart", "Flutter", "Firebase", "Google Maps API"],
+    "link": "/projects/findhome",
+    "slug": "findhome"
+  },
+  {
+    "id": "3",
+    "title": "NDAMBA PLAY",
+    "description": "An E-Sport platform that connects gamers in Cameroon and Africa.",
+    "image": "/images/ndambaplay.jpeg",
+    "achievements": [
+      "Created a platform for gamers to connect and compete",
+      "Increased user engagement and retention"
+    ],
+    "technologies": [
+      "Vue.js",
+      "Node.js",
+      "Django",
+      "Socket.io",
+      "PostgresQL",
+      "Flutter"
+    ],
+    "link": "/projects/ndambaplay",
+    "slug": "ndambaplay"
+  },
+  {
+    "id": "4",
+    "title": "YOUPI Website",
+    "description": "Website for a Cameroonian tech startup that offers digital solutions to businesses.",
+    "image": "/images/youpi.jpeg",
+    "achievements": [
+      "Increased brand visibility and customer engagement",
+      "Improved website performance and user experience"
+    ],
+    "technologies": ["Vue.js", "Node.js", "Laravel", "MySQL"],
+    "link": "/projects/youpi",
+    "slug": "youpi"
+  },
+  {
+    "id": "5",
+    "title": "Lights of Hope Africa Website",
+    "description": "Website for a non-profit organization that provides educational resources to underprivileged children in Africa.",
+    "image": "/images/lihoa.jpeg",
+    "achievements": [
+      "Increased online donations and volunteer sign-ups",
+      "Improved website performance and user experience"
+    ],
+    "technologies": ["React", "Node.js", "MongoDB", "Stripe API"],
+    "link": "/projects/lihoa",
+    "slug": "lihoa"
+  }
+]
