@@ -8,7 +8,8 @@ const TeamMember = ({ name, role, image, bio }) => (
       alt={name}
       width={300}
       height={300}
-      className="w-full h-64 object-cover object-top"
+      className="w-full h-64 object-cover"
+      style={{ objectPosition: "center 15%" }}
     />
     <div className="p-6">
       <h3 className="text-xl font-semibold mb-2">{name}</h3>
@@ -21,7 +22,7 @@ const TeamMember = ({ name, role, image, bio }) => (
 const OurTeam = () => {
   const teamMembers = [
     {
-      name: "Ndjock Michel Junior",
+      name: "Ndjock Michel",
       role: "Founder & CEO",
       image: "/images/ndjockjunior.jpeg",
       bio: "With a Masters of Engineering Science in Software Engineering from NAHPI, Ndjock has over 10 years of experience in Software Development and Cloud DevOps. He founded MADTECH with a vision to drive technological innovation in Cameroon and across Africa.",
@@ -47,7 +48,7 @@ const OurTeam = () => {
     {
       name: "Sahla Sandrine",
       role: "Cybersecurity Specialist",
-      image: "/images/team/fatou.jpg",
+      image: "/images/sandrine.jpeg",
       bio: "Sahla is a highly skilled cybersecurity specialist with expertise in securing networks and systems. With a deep understanding of the latest threats and vulnerabilities, Sahla ensures that our clients' data and infrastructure are protected from cyber attacks. Her meticulous approach to security and strong problem-solving skills make her an invaluable member of our team.",
     },
     {
