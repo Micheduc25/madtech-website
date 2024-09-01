@@ -19,7 +19,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/features" className="hover:text-gray-300">
+                  <Link href="/services" className="hover:text-gray-300">
                     Our Services
                   </Link>
                 </li>
@@ -36,17 +36,26 @@ const Footer = () => {
               </h5>
               <ul>
                 <li>
-                  <Link href="/features" className="hover:text-gray-300">
+                  <Link
+                    href="/services/custom-software-development"
+                    className="hover:text-gray-300"
+                  >
                     Web Development
                   </Link>
                 </li>
                 <li>
-                  <Link href="/features" className="hover:text-gray-300">
+                  <Link
+                    href="/services/mobile-app-development"
+                    className="hover:text-gray-300"
+                  >
                     Mobile Apps
                   </Link>
                 </li>
                 <li>
-                  <Link href="/features" className="hover:text-gray-300">
+                  <Link
+                    href="/services/ai-machine-learning"
+                    className="hover:text-gray-300"
+                  >
                     AI Solutions
                   </Link>
                 </li>

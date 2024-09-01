@@ -1,13 +1,23 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  const navItems = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "/projects", label: "Projects" },
+    { href: "/services", label: "Our Services" },
+    { href: "/contact", label: "Contact Us" },
+  ];
 
   return (
     <header
-      className="bg-[#2801b9] bg-cover bg-no-repeat"
+      className="bg-[#2801b9] bg-cover bg-no-repeat sticky top-0 shadow-xl"
       style={{ backgroundImage: "url('/images/hero.jpg')" }}
     >
       <div className="container mx-auto px-4 py-4">
@@ -16,18 +26,17 @@ const Header = () => {
             MADTECH
           </Link>
           <div className="hidden md:flex space-x-4">
-            <Link href="/" className="text-white hover:text-gray-200">
-              Home
-            </Link>
-            <Link href="/about" className="text-white hover:text-gray-200">
-              About
-            </Link>
-            <Link href="/projects" className="text-white hover:text-gray-200">
-              Projects
-            </Link>
-            <Link href="/contact" className="text-white hover:text-gray-200">
-              Contact Us
-            </Link>
+            {navItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`text-white hover:text-gray-200 transition-all duration-300 border-b-2 border-transparent ${
+                  pathname === item.href ? " border-white font-semibold" : ""
+                }`}
+              >
+                {item.label}
+              </Link>
+            ))}
           </div>
           <button
             className="md:hidden text-white"
@@ -51,18 +60,19 @@ const Header = () => {
         </nav>
         {isMenuOpen && (
           <div className="md:hidden mt-4">
-            <Link href="/" className="block text-white py-2">
-              Home
-            </Link>
-            <Link href="/about" className="block text-white py-2">
-              About
-            </Link>
-            <Link href="/projects" className="block text-white py-2">
-              Projects
-            </Link>
-            <Link href="/contact" className="block text-white py-2">
-              Contact Us
-            </Link>
+            {navItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`block text-white py-2 px-1 transition-all duration-300 ${
+                  pathname === item.href
+                    ? "bg-white bg-opacity-20 font-semibold"
+                    : ""
+                }`}
+              >
+                {item.label}
+              </Link>
+            ))}
           </div>
         )}
       </div>

@@ -5,6 +5,7 @@
     "shortDescription": "Tailored solutions to meet your unique business needs in the Cameroonian market.",
     "fullDescription": "At MADTECH, we specialize in creating bespoke software solutions that address the specific challenges faced by businesses in Cameroon. Our team of expert developers combines local insights with global best practices to deliver robust, scalable, and user-friendly applications that drive your business forward. Whether you need an enterprise resource planning (ERP) system, a customer relationship management (CRM) tool, or a specialized industry-specific application, we've got you covered.",
     "icon": "💻",
+    "color": "bg-blue-500",
     "image": "/images/services/custom-software.jpg",
     "features": [
       "Tailored solutions for Cameroonian businesses",
@@ -71,6 +72,7 @@
     "shortDescription": "Innovative mobile applications for iOS and Android platforms, tailored for the Cameroonian market.",
     "fullDescription": "MADTECH excels in creating high-performance, user-friendly mobile applications that cater to the unique needs of Cameroonian users. We understand the local mobile landscape, including popular devices, common usage patterns, and connectivity challenges. Our apps are designed to work efficiently even in low-bandwidth areas and often include offline functionality. We specialize in both consumer-facing apps and enterprise mobile solutions that can transform how businesses operate in Cameroon.",
     "icon": "📱",
+    "color": "bg-green-500",
     "image": "/images/services/mobile-app.jpg",
     "features": [
       "Native iOS and Android development",
@@ -137,6 +139,7 @@
     "shortDescription": "Cutting-edge AI solutions to automate and optimize processes for Cameroonian businesses.",
     "fullDescription": "MADTECH is at the forefront of bringing artificial intelligence and machine learning solutions to businesses in Cameroon. We develop intelligent systems that can analyze data, make predictions, and automate complex processes. Our AI solutions are designed to address specific challenges in the Cameroonian market, from optimizing agricultural yields to improving healthcare diagnostics. We focus on practical, cost-effective AI implementations that deliver tangible benefits to our clients.",
     "icon": "🤖",
+    "color": "bg-purple-500",
     "image": "/images/services/ai-ml.jpg",
     "features": [
       "Custom machine learning models",
@@ -204,6 +207,7 @@
     "fullDescription": "MADTECH provides comprehensive cloud solutions that enable Cameroonian businesses to leverage the power of cloud computing while addressing local challenges such as intermittent internet connectivity and data sovereignty concerns. We offer a range of services from cloud migration and hybrid cloud setups to fully managed cloud infrastructures. Our solutions are designed to provide the flexibility, scalability, and cost-efficiency that businesses in Cameroon need to stay competitive in the digital age.",
     "icon": "☁️",
     "image": "/images/services/cloud-solutions.jpg",
+    "color": "bg-red-500",
     "features": [
       "Cloud migration services",
       "Hybrid and multi-cloud solutions",
@@ -261,6 +265,142 @@
       "custom-software-development",
       "cybersecurity",
       "data-analytics"
+    ]
+  },
+
+  {
+    "id": "cybersecurity",
+    "title": "Cybersecurity",
+    "shortDescription": "Comprehensive cybersecurity solutions to protect your business from cyber threats.",
+    "fullDescription": "MADTECH offers a range of cybersecurity services to safeguard your business from cyber threats and ensure the confidentiality, integrity, and availability of your critical data and systems. Our team of cybersecurity experts leverages industry-leading practices and technologies to identify vulnerabilities, implement robust security measures, and provide ongoing monitoring and support. Whether you need penetration testing, security audits, incident response, or employee training, we have the expertise to protect your business in the digital landscape.",
+    "icon": "🔒",
+    "color": "bg-yellow-500",
+    "image": "/images/services/cybersecurity.jpg",
+    "features": [
+      "Vulnerability assessments and penetration testing",
+      "Security audits and risk assessments",
+      "Network and infrastructure security",
+      "Endpoint protection and antivirus solutions",
+      "Data encryption and secure data storage",
+      "Security incident response and forensic analysis",
+      "Employee cybersecurity training and awareness"
+    ],
+    "benefits": [
+      "Protection against cyber attacks and data breaches",
+      "Compliance with industry regulations and standards",
+      "Safeguarding of sensitive customer and business data",
+      "Minimized downtime and business disruption",
+      "Enhanced trust and reputation among customers",
+      "Proactive identification and mitigation of security risks",
+      "Peace of mind knowing your business is secure"
+    ],
+    "processSteps": [
+      {
+        "title": "Security Assessment",
+        "description": "We conduct a comprehensive assessment of your existing security measures and identify potential vulnerabilities and risks."
+      },
+      {
+        "title": "Security Planning and Implementation",
+        "description": "Based on the assessment, we develop a customized security plan and implement robust security measures to protect your business."
+      },
+      {
+        "title": "Monitoring and Incident Response",
+        "description": "We provide continuous monitoring of your systems, detect and respond to security incidents, and conduct forensic analysis if needed."
+      },
+      {
+        "title": "Employee Training and Awareness",
+        "description": "We offer cybersecurity training programs to educate your employees about best practices and raise awareness about potential threats."
+      },
+      {
+        "title": "Ongoing Support and Updates",
+        "description": "We provide ongoing support, updates, and maintenance to ensure your cybersecurity measures remain effective against evolving threats."
+      }
+    ],
+    "caseStudy": {
+      "title": "Success Story: SecureBank",
+      "description": "We implemented a comprehensive cybersecurity solution for SecureBank, a leading financial institution in Cameroon. Our team conducted a thorough security assessment, identified vulnerabilities, and implemented robust security measures to protect customer data and prevent unauthorized access. As a result, SecureBank achieved compliance with industry regulations, reduced the risk of data breaches, and enhanced customer trust in their online banking services."
+    },
+    "technologies": [
+      "Firewalls",
+      "Intrusion Detection and Prevention Systems",
+      "Security Information and Event Management (SIEM)",
+      "Encryption algorithms",
+      "Two-factor authentication",
+      "Security awareness training platforms",
+      "Endpoint security solutions"
+    ],
+    "relatedServices": [
+      "custom-software-development",
+      "cloud-solutions",
+      "data-analytics"
+    ]
+  },
+
+  {
+    "id": "blockchain-service",
+    "title": "Blockchain Service",
+    "shortDescription": "Secure and transparent blockchain solutions for Cameroonian businesses.",
+    "fullDescription": "MADTECH offers blockchain services that enable Cameroonian businesses to leverage the power of decentralized and transparent technology. We specialize in developing blockchain solutions tailored to the specific needs of businesses in Cameroon, including supply chain management, digital identity verification, and secure transactions. Our team of blockchain experts ensures the integrity and security of your data while providing seamless integration with existing systems and processes.",
+    "icon": "🔗",
+    "color": "bg-indigo-500",
+    "image": "/images/services/blockchain.jpg",
+    "features": [
+      "Decentralized and transparent transactions",
+      "Immutable and tamper-proof data storage",
+      "Smart contract development and deployment",
+      "Supply chain traceability and verification",
+      "Digital identity management",
+      "Secure and efficient cross-border payments",
+      "Integration with existing systems and APIs"
+    ],
+    "benefits": [
+      "Enhanced security and data integrity",
+      "Increased transparency and trust",
+      "Streamlined and efficient processes",
+      "Reduced costs and intermediaries",
+      "Improved supply chain visibility",
+      "Elimination of fraud and counterfeit products",
+      "Global accessibility and interoperability"
+    ],
+    "processSteps": [
+      {
+        "title": "Requirement Analysis",
+        "description": "We work closely with you to understand your specific business requirements and identify the potential use cases for blockchain technology."
+      },
+      {
+        "title": "Design and Development",
+        "description": "Our blockchain experts design and develop a customized blockchain solution that aligns with your business goals and integrates seamlessly with your existing systems."
+      },
+      {
+        "title": "Testing and Deployment",
+        "description": "We conduct rigorous testing to ensure the reliability and security of the blockchain solution, and assist with the deployment and integration process."
+      },
+      {
+        "title": "Maintenance and Support",
+        "description": "We provide ongoing maintenance and support to ensure the smooth operation of your blockchain solution, including updates and enhancements as needed."
+      },
+      {
+        "title": "Training and Education",
+        "description": "We offer training and education programs to help your team understand and leverage the benefits of blockchain technology in your business operations."
+      }
+    ],
+    "caseStudy": {
+      "title": "Success Story: Supply Chain Transparency",
+      "description": "We implemented a blockchain-based supply chain solution for a leading Cameroonian coffee exporter, enabling end-to-end traceability and transparency. The solution allowed consumers to verify the origin and quality of the coffee they purchased, while providing the exporter with real-time visibility into the supply chain. This resulted in increased trust among consumers, reduced counterfeit products, and improved efficiency in the supply chain."
+    },
+    "technologies": [
+      "Ethereum",
+      "Hyperledger Fabric",
+      "Solidity",
+      "Web3.js",
+      "IPFS",
+      "Smart contracts",
+      "Tokenization"
+    ],
+    "relatedServices": [
+      "custom-software-development",
+      "data-analytics",
+      "cloud-solutions"
     ]
   }
 ]
