@@ -8,7 +8,7 @@ const TeamMember = ({ name, role, image, bio }) => (
       alt={name}
       width={300}
       height={300}
-      className="w-full h-64 object-cover"
+      className="w-full h-64 object-cover object-top"
     />
     <div className="p-6">
       <h3 className="text-xl font-semibold mb-2">{name}</h3>
@@ -21,40 +21,40 @@ const TeamMember = ({ name, role, image, bio }) => (
 const OurTeam = () => {
   const teamMembers = [
     {
-      name: "Engr. Ndjock Michel Junior",
+      name: "Ndjock Michel Junior",
       role: "Founder & CEO",
       image: "/images/ndjockjunior.jpeg",
-      bio: "With a Masters of Engineering Science in Software Engineering from NAHPI, Ndjock has over 10 years of experience in Software Development and machine learning. He founded MADTECH with a vision to drive technological innovation in Cameroon and across Africa.",
+      bio: "With a Masters of Engineering Science in Software Engineering from NAHPI, Ndjock has over 10 years of experience in Software Development and Cloud DevOps. He founded MADTECH with a vision to drive technological innovation in Cameroon and across Africa.",
     },
     {
-      name: "Jean-Paul Eyinga",
+      name: "Kunde Godfrey",
       role: "CTO",
-      image: "/images/team/jean-paul.jpg",
-      bio: "Jean-Paul is a seasoned software architect with expertise in blockchain and cloud technologies. He leads our technical strategy and ensures we're always at the cutting edge of technology.",
+      image: "/images/godfrey.jpeg",
+      bio: "Godfrey is a seasoned software architect with expertise in Software Design and Machine. He leads our technical strategy and ensures we're always at the cutting edge of technology.",
     },
     {
-      name: "Marie Tchamba",
+      name: "Njimukara Brian",
       role: "Head of Product",
-      image: "/images/team/marie.jpg",
-      bio: "Marie brings a decade of experience in product management from Silicon Valley. She's passionate about creating user-centric products that solve real African challenges.",
+      image: "/images/brian.jpeg",
+      bio: "Brian brings a decade of experience in product management from the National Higher Polytechnic Institute. He's passionate about creating user-centric products that solve real African challenges.",
     },
     {
-      name: "Kamdem Tchiengue",
-      role: "Lead Mobile Developer",
-      image: "/images/team/kamdem.jpg",
-      bio: "Kamdem is our mobile app wizard, with numerous successful apps under his belt. He's committed to creating seamless mobile experiences for our diverse user base.",
+      name: "Tangu Achilis",
+      role: "Lead Front-End Developer",
+      image: "/images/achilis.jpeg",
+      bio: "Tangu is a highly skilled front-end developer with expertise in building responsive and user-friendly web and mobile applications. With a strong eye for design and attention to detail, Tangu ensures that our front-end development meets the highest standards of quality and usability.",
     },
     {
-      name: "Fatou Diop",
-      role: "AI Research Scientist",
+      name: "Sahla Sandrine",
+      role: "Cybersecurity Specialist",
       image: "/images/team/fatou.jpg",
-      bio: "Fatou leads our AI research initiatives. Her work focuses on applying machine learning to solve unique challenges in agriculture, healthcare, and education across Africa.",
+      bio: "Sahla is a highly skilled cybersecurity specialist with expertise in securing networks and systems. With a deep understanding of the latest threats and vulnerabilities, Sahla ensures that our clients' data and infrastructure are protected from cyber attacks. Her meticulous approach to security and strong problem-solving skills make her an invaluable member of our team.",
     },
     {
-      name: "Omar Njie",
-      role: "Business Development Manager",
+      name: "Ndogmo Kevin",
+      role: "Lead Backend Developer",
       image: "/images/team/omar.jpg",
-      bio: "Omar has a strong background in tech sales and partnerships. He's responsible for growing MADTECH's presence across Africa and fostering key industry relationships.",
+      bio: "Kevin is a highly skilled backend developer with expertise in building scalable and efficient server-side applications. With a strong understanding of databases and APIs, Kevin ensures that our backend systems are robust and performant. His problem-solving skills and attention to detail make him an invaluable member of our team.",
     },
   ];
 

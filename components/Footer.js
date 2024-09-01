@@ -57,8 +57,8 @@ const Footer = () => {
                 Contact Us
               </h5>
               <ul>
-                <li>123 Tech Street, Yaoundé, Cameroon</li>
-                <li>Phone: +237 123 456 789</li>
+                <li>Afeme Nord, Yaoundé, Cameroon</li>
+                <li>Phone: +237 681 757 514</li>
                 <li>Email: info@madtech.cm</li>
               </ul>
             </div>
@@ -98,7 +98,7 @@ const Footer = () => {
                 />
               </a>
             </div>
-            <div className="newsletter-form">
+            {/* <div className="newsletter-form">
               <form className="flex flex-col md:flex-row items-center">
                 <label htmlFor="newsletter" className="mr-4 text-lg uppercase">
                   Newsletter
@@ -116,7 +116,7 @@ const Footer = () => {
                   Subscribe
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

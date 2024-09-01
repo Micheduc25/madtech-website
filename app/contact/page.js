@@ -167,7 +167,7 @@ const ContactPage = () => {
             <div className="space-y-4">
               <p className="flex items-center">
                 <MapPin className="mr-2" size={20} />
-                Afeme Nord, Douala, Cameroon
+                Afeme Nord, Yaounde, Cameroon
               </p>
               <p className="flex items-center">
                 <Phone className="mr-2" size={20} />
