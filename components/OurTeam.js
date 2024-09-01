@@ -40,6 +40,12 @@ const OurTeam = () => {
       bio: "Brian brings a decade of experience in product management from the National Higher Polytechnic Institute. He's passionate about creating user-centric products that solve real African challenges.",
     },
     {
+      name: "Ndifon Titiana",
+      role: "Lead UI/UX Designer",
+      image: "/images/titiana.jpeg",
+      bio: "Titiana is a highly skilled UI/UX designer with expertise in creating beautiful and intuitive user interfaces. With a strong eye for detail and a passion for user experience, Titiana ensures that our products are not only visually appealing but also easy to use.",
+    },
+    {
       name: "Tangu Achilis",
       role: "Lead Front-End Developer",
       image: "/images/achilis.jpeg",
