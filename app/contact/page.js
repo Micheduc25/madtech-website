@@ -43,10 +43,22 @@ const ContactPage = () => {
       setIsSubmitting(true);
       setErrors({});
       try {
-        // Simulating an API call
-        await new Promise((resolve) => setTimeout(resolve, 2000));
-        setSubmitStatus("success");
-        setFormData({ name: "", email: "", message: "" });
+        const response = await fetch("/api/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+          setSubmitStatus("success");
+          setFormData({ name: "", email: "", message: "" });
+        } else {
+          setSubmitStatus("error");
+        }
       } catch (error) {
         setSubmitStatus("error");
       } finally {
