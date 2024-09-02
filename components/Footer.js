@@ -68,7 +68,7 @@ const Footer = () => {
               <ul>
                 <li>Afeme Nord, Yaoundé, Cameroon</li>
                 <li>Phone: +237 681 757 514</li>
-                <li>Email: info@gumuh.cm</li>
+                <li>Email: contact@gumuh.com</li>
               </ul>
             </div>
           </div>

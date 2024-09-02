@@ -175,7 +175,7 @@ const ContactPage = () => {
               </p>
               <p className="flex items-center">
                 <Mail className="mr-2" size={20} />
-                contact@gumuh.cm
+                contact@gumuh.com
               </p>
             </div>
 
