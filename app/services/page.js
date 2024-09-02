@@ -8,10 +8,10 @@ const ServicesPage = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Head>
-        <title>Our Services | MADTECH</title>
+        <title>Our Services | GUMUH</title>
         <meta
           name="description"
-          content="Explore MADTECH's comprehensive range of tech services tailored for businesses in Cameroon and across Africa."
+          content="Explore GUMUH's comprehensive range of tech services tailored for businesses in Cameroon and across Africa."
         />
       </Head>
 
@@ -44,7 +44,7 @@ const ServicesPage = () => {
         <section className="py-16 bg-gray-100">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 text-center">
-              Why Choose MADTECH?
+              Why Choose GUMUH?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -83,7 +83,7 @@ const ServicesPage = () => {
               Ready to Transform Your Business?
             </h2>
             <p className="mb-8 text-xl">
-              Let's discuss how MADTECH can help you achieve your technology
+              Let's discuss how GUMUH can help you achieve your technology
               goals.
             </p>
             <Link

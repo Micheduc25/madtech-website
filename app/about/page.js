@@ -9,7 +9,7 @@ const AboutPage = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">About MADTECH</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">About GUMUH</h1>
           <p className="text-xl mb-8">Empowering Africa's Digital Future</p>
         </div>
       </section>
@@ -20,7 +20,7 @@ const AboutPage = () => {
           <div className="md:w-1/2 mb-8 md:mb-0">
             <Image
               src="/images/team.jpeg"
-              alt="MADTECH Team"
+              alt="GUMUH Team"
               width={600}
               height={400}
               className="rounded-lg shadow-lg"
@@ -29,7 +29,7 @@ const AboutPage = () => {
           <div className="md:w-1/2 md:pl-8">
             <h2 className="text-3xl font-bold mb-4">Who We Are</h2>
             <p className="mb-4">
-              MADTECH is a pioneering Cameroonian software startup founded in
+              GUMUH is a pioneering Cameroonian software startup founded in
               2020. We are a team of passionate tech enthusiasts, innovative
               developers, and creative problem-solvers dedicated to leveraging
               cutting-edge technologies to address Africa's unique challenges

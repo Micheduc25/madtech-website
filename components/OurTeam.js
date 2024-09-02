@@ -25,7 +25,7 @@ const OurTeam = () => {
       name: "Ndjock Michel",
       role: "Founder & CEO",
       image: "/images/ndjockjunior.jpeg",
-      bio: "With a Masters of Engineering Science in Software Engineering from NAHPI, Ndjock has over 10 years of experience in Software Development and Cloud DevOps. He founded MADTECH with a vision to drive technological innovation in Cameroon and across Africa.",
+      bio: "With a Masters of Engineering Science in Software Engineering from NAHPI, Ndjock has over 10 years of experience in Software Development and Cloud DevOps. He founded GUMUH with a vision to drive technological innovation in Cameroon and across Africa.",
     },
     {
       name: "Kunde Godfrey",
@@ -70,9 +70,9 @@ const OurTeam = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">Our Team</h2>
         <p className="text-xl text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-          At MADTECH, our strength lies in our diverse, talented team. Each
-          member brings unique expertise and a shared passion for leveraging
-          technology to drive positive change in Africa.
+          At GUMUH, our strength lies in our diverse, talented team. Each member
+          brings unique expertise and a shared passion for leveraging technology
+          to drive positive change in Africa.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (

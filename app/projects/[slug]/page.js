@@ -14,7 +14,7 @@ const ProjectDetailsPage = ({ params }) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Head>
-        <title>{`${projectData.title} | MADTECH Projects`}</title>
+        <title>{`${projectData.title} | GUMUH Projects`}</title>
         <meta name="description" content={projectData.description} />
       </Head>
 

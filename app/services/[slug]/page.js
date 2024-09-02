@@ -18,7 +18,7 @@ const ServiceDetails = ({ params }) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Head>
-        <title>{`${service.title} | MADTECH Services`}</title>
+        <title>{`${service.title} | GUMUH Services`}</title>
         <meta name="description" content={service.description} />
       </Head>
 

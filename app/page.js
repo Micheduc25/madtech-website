@@ -17,7 +17,7 @@ const HomePage = () => {
     {
       title: "Empowering Cameroon's Digital Future",
       description:
-        "MADTECH is at the forefront of Cameroon's tech revolution, developing innovative solutions that address local challenges and drive economic growth.",
+        "GUMUH is at the forefront of Cameroon's tech revolution, developing innovative solutions that address local challenges and drive economic growth.",
       image: "/images/bg1.jpg",
     },
     {
@@ -81,10 +81,10 @@ const HomePage = () => {
         <section className="py-16 bg-gray-100">
           <div className="container mx-auto px-6">
             <h2 className="text-3xl font-bold mb-8 text-center text-blue-900">
-              About MADTECH
+              About GUMUH
             </h2>
             <p className="text-center max-w-2xl mx-auto mb-8">
-              MADTECH is a leading Cameroonian tech startup dedicated to driving
+              GUMUH is a leading Cameroonian tech startup dedicated to driving
               digital innovation and empowering businesses across Africa. With 5
               years of experience and over 100 satisfied clients, we're
               committed to bridging the digital divide and fostering
@@ -177,7 +177,7 @@ const HomePage = () => {
             </h2>
             <div className="max-w-2xl mx-auto text-center">
               <p className="text-xl italic mb-4">
-                "MADTECH's innovative solutions have transformed our business
+                "GUMUH's innovative solutions have transformed our business
                 operations. Their expertise in AI and machine learning has given
                 us a competitive edge in the market."
               </p>
@@ -195,7 +195,7 @@ const HomePage = () => {
               Ready to Transform Your Business?
             </h2>
             <p className="mb-8 text-blue-900">
-              Let's discuss how MADTECH can help you achieve your digital goals.
+              Let's discuss how GUMUH can help you achieve your digital goals.
             </p>
             <Link
               href="/contact"

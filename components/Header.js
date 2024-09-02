@@ -17,13 +17,13 @@ const Header = () => {
 
   return (
     <header
-      className="bg-[#2801b9] bg-cover bg-no-repeat sticky top-0 shadow-xl"
+      className="bg-[#2801b9] bg-cover bg-no-repeat sticky top-0 shadow-xl z-50"
       style={{ backgroundImage: "url('/images/hero.jpg')" }}
     >
       <div className="container mx-auto px-4 py-4">
         <nav className="flex justify-between items-center">
           <Link href="/" className="text-white text-2xl font-bold">
-            MADTECH
+            GUMUH
           </Link>
           <div className="hidden md:flex space-x-4">
             {navItems.map((item) => (

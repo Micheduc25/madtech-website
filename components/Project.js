@@ -24,7 +24,6 @@ const Project = ({
           src={imageSrc}
           alt={title}
           layout="fill"
-          objectFit="cover"
           className="transition-transform duration-300 hover:scale-105 object-cover h-fit"
         />
       </div>

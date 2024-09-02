@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h5 className="text-xl font-semibold mb-4 pb-2 border-b-2 border-[#feb543]">
-                MADTECH
+                GUMUH
               </h5>
               <ul>
                 <li>
@@ -68,7 +68,7 @@ const Footer = () => {
               <ul>
                 <li>Afeme Nord, Yaoundé, Cameroon</li>
                 <li>Phone: +237 681 757 514</li>
-                <li>Email: info@madtech.cm</li>
+                <li>Email: info@gumuh.cm</li>
               </ul>
             </div>
           </div>
@@ -132,7 +132,7 @@ const Footer = () => {
       <footer className="bg-white py-6">
         <div className="container mx-auto px-4">
           <p className="text-center text-gray-800">
-            © MADTECH {new Date().getFullYear()} All Rights Reserved.
+            © GUMUH {new Date().getFullYear()} All Rights Reserved.
           </p>
         </div>
       </footer>

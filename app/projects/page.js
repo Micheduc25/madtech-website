@@ -39,10 +39,10 @@ const ProjectsPage = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Head>
-        <title>MADTECH Projects | Innovative Solutions for Cameroon</title>
+        <title>GUMUH Projects | Innovative Solutions for Cameroon</title>
         <meta
           name="description"
-          content="Explore MADTECH's innovative projects driving digital transformation across Cameroon and Africa."
+          content="Explore GUMUH's innovative projects driving digital transformation across Cameroon and Africa."
         />
       </Head>
 
@@ -54,7 +54,7 @@ const ProjectsPage = () => {
               Our Projects
             </h1>
             <p className="text-xl mb-8">
-              Discover how MADTECH is driving innovation and solving real-world
+              Discover how GUMUH is driving innovation and solving real-world
               challenges in Cameroon and beyond.
             </p>
           </div>
