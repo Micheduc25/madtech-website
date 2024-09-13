@@ -178,7 +178,7 @@
     ],
     "testimonial": {
       "quote": "The website GUMUH created for us has been instrumental in our growth. It perfectly captures our essence and has significantly improved our client outreach.",
-      "author": "Marie Tchamba",
+      "author": "Charles Atangana",
       "position": "CEO, YOUPI"
     },
     "timeline": [
@@ -224,7 +224,7 @@
     ],
     "testimonial": {
       "quote": "The website GUMUH developed has been a game-changer for us. It's not just a website; it's a powerful tool that's helping us reach more children and change more lives.",
-      "author": "Dr. Femi Okonkwo",
+      "author": "Sandrine Diribe",
       "position": "Founder, Lights of Hope Africa"
     },
     "timeline": [
@@ -235,5 +235,50 @@
       { "date": "December 2022", "event": "75% Donation Increase Milestone" }
     ],
     "link": "/case-studies/lihoa"
+  },
+
+  {
+    "id": "6",
+    "slug": "nunavut",
+    "title": "Nunavut All Services Inc Website",
+    "description": "A website for a versatile company based in Canada which offers a variety of services",
+    "fullDescription": "Nunavut All Services Inc. is a versatile company based in Canada that offers a wide range of services to its clients. GUMUH was tasked with creating a website that would effectively showcase Nunavut's services, attract potential clients, and position the company as a leader in the Canadian service industry.",
+    "image": "/images/nunavut.jpeg",
+    "achievements": [
+      "Increased online inquiries and customer engagement",
+      "Improved website performance and user experience",
+      "Boosted lead generation by 30% through optimized contact forms",
+      "Reduced bounce rate by 20% through improved site structure and content"
+    ],
+    "technologies": ["Wordpress", "PHP", "MySQL"],
+    "challenges": [
+      "Creating a website that stands out in the competitive service industry",
+      "Effectively communicating complex services to a diverse audience",
+      "Ensuring fast load times and responsiveness across all devices",
+      "Implementing a scalable solution to accommodate Nunavut's rapid growth"
+    ],
+    "solutions": [
+      "Designed a modern, visually striking website that reflects Nunavut's innovative brand",
+      "Developed clear, concise service descriptions with interactive elements for better understanding",
+      "Utilized Wordpress for a fast, responsive front-end and optimized back-end processes",
+      "Implemented a modular design allowing for easy addition of new services and features"
+    ],
+    "impact": [
+      "Established Nunavut as a recognizable brand in Canada's service industry",
+      "Facilitated partnerships with key players in various business sectors",
+      "Improved client acquisition process, leading to 20% growth in client base",
+      "Served as a model for effective digital presence for Canadian service companies"
+    ],
+    "testimonial": {
+      "quote": "The website GUMUH created for us has been instrumental in our growth. It perfectly captures our essence and has significantly improved our client outreach.",
+      "author": "",
+      "position": "CEO, Nunavut All Services Inc."
+    },
+    "timeline": [
+      { "date": "February 2024", "event": "Project Initiation" },
+      { "date": "March 2024", "event": "Design Approval" },
+      { "date": "May 2024", "event": "Development and Testing" },
+      { "date": "June 2024", "event": "Website Launch" }
+    ]
   }
 ]

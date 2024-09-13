@@ -70,5 +70,18 @@
     "technologies": ["React", "Node.js", "MongoDB", "Stripe API"],
     "link": "/projects/lihoa",
     "slug": "lihoa"
+  },
+  {
+    "id": "5",
+    "title": "Nunavut All Services Inc Website",
+    "description": "A website for a versatile company based in Canada which offers a variety of services",
+    "image": "/images/nunavut.jpeg",
+    "achievements": [
+      "Increased online inquiries and customer engagement",
+      "Improved website performance and user experience"
+    ],
+    "technologies": ["Wordpress", "PHP", "MySQL"],
+    "link": "/projects/nunavut",
+    "slug": "nunavut"
   }
 ]
