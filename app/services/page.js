@@ -13,6 +13,22 @@ const ServicesPage = () => {
           name="description"
           content="Explore GUMUH's comprehensive range of tech services tailored for businesses in Cameroon and across Africa."
         />
+
+        <meta property="og:title" content="Our Services | GUMUH" />
+        <meta
+          property="og:description"
+          content="Explore GUMUH's comprehensive range of tech services tailored for businesses in Cameroon and across Africa."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://gumuh.com/services" />
+        <meta
+          property="og:image"
+          content="https://gumuh.com/images/services.jpg"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="GUMUH" />
       </Head>
 
       <main className="flex-grow">

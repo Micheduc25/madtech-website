@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.gumuh.com/sitemap.xml
