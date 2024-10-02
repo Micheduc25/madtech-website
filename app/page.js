@@ -36,7 +36,7 @@ const HomePage = () => {
     },
   ];
 
-  const stringManipulator = new StringManipulator("about GUMUH");
+  const stringManipulator = new StringManipulator("About GUMUH");
 
   return (
     <>
