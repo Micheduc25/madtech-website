@@ -10,7 +10,12 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h5 className="text-xl font-semibold mb-4 pb-2 border-b-2 border-[#feb543]">
-                GUMUH
+                <Image
+                  src="/images/logo-white.png"
+                  width={150}
+                  height={50}
+                  alt="Gumuh Logo"
+                />
               </h5>
               <ul>
                 <li>

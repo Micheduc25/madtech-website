@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { MapPin, Phone, Mail, AlertCircle } from "lucide-react";
 import Head from "next/head";
+import Image from "next/image";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -204,7 +205,16 @@ const ContactPage = () => {
 
             {/* Company Information and Map */}
             <div className="w-full md:w-1/2 bg-indigo-700 text-white p-8">
-              <h2 className="text-2xl font-semibold mb-6">Our Information</h2>
+              <h2 className="text-2xl font-semibold mb-6 flex flex-col">
+                <Image
+                  src="/images/logo-white.png"
+                  width={150}
+                  height={50}
+                  alt="Gumuh Logo"
+                  className="mb-3"
+                />
+                <span>Our Information</span>
+              </h2>
               <div className="space-y-4">
                 <p className="flex items-center">
                   <MapPin className="mr-2" size={20} />

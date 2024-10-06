@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,7 +24,12 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <nav className="flex justify-between items-center">
           <Link href="/" className="text-white text-2xl font-bold">
-            GUMUH
+            <Image
+              src="/images/logo-white.png"
+              width={150}
+              height={50}
+              alt="Gumuh Logo"
+            />
           </Link>
           <div className="hidden md:flex space-x-4">
             {navItems.map((item) => (
