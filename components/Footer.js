@@ -79,7 +79,11 @@ const Footer = () => {
           </div>
           <div className="mt-8 flex flex-col md:flex-row justify-between items-center">
             <div className="social-box flex space-x-4 mb-4 md:mb-0">
-              <a href="#" className="hover:opacity-80">
+              <a
+                href="https://www.facebook.com/profile.php?id=61566507442070"
+                target="_blank"
+                className="hover:opacity-80"
+              >
                 <Image
                   src="/images/fb.png"
                   alt="Facebook"
@@ -87,7 +91,7 @@ const Footer = () => {
                   height={35}
                 />
               </a>
-              <a href="#" className="hover:opacity-80">
+              <a href="#" target="_blank" className="hover:opacity-80">
                 <Image
                   src="/images/twitter.png"
                   alt="Twitter"
@@ -95,7 +99,7 @@ const Footer = () => {
                   height={35}
                 />
               </a>
-              <a href="#" className="hover:opacity-80">
+              <a href="#" target="_blank" className="hover:opacity-80">
                 <Image
                   src="/images/linkedin1.png"
                   alt="LinkedIn"
@@ -103,7 +107,7 @@ const Footer = () => {
                   height={35}
                 />
               </a>
-              <a href="#" className="hover:opacity-80">
+              <a href="#" target="_blank" className="hover:opacity-80">
                 <Image
                   src="/images/instagram1.png"
                   alt="Instagram"
