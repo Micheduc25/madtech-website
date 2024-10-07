@@ -42,10 +42,7 @@ const HomePage = () => {
     <>
       <Head>
         <title>GUMUH | Home</title>
-        <meta
-          name="description"
-          content="GUMUH is a leading Cameroonian tech startup dedicated to driving digital innovation and empowering businesses across Africa."
-        />
+
         <meta
           name="keywords"
           content="Cameroon tech startup, digital innovation, tech solutions, digital literacy, tech talent, Cameroonian tech professionals, AI solutions, machine learning, digital transformation, tech business, tech services, tech projects, digital growth, tech training, tech internships"

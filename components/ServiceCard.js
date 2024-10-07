@@ -1,9 +1,12 @@
 import React from "react";
 import Link from "next/link";
 
-const ServiceCard = ({ id, title, description, icon, color }) => {
+const ServiceCard = ({ id, title, description, icon, color, styleColor }) => {
   return (
-    <div className={`${color} rounded-lg shadow-lg overflow-hidden`}>
+    <div
+      style={{ backgroundColor: styleColor ? styleColor : "" }}
+      className={`${color} rounded-lg shadow-lg overflow-hidden`}
+    >
       <div className="p-6">
         <div className="text-4xl mb-4">{icon}</div>
         <h3 className="text-xl font-semibold mb-2 text-white">{title}</h3>

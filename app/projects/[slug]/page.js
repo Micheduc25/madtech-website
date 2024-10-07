@@ -1,8 +1,5 @@
-"use client";
-import React from "react";
 import Head from "next/head";
 import Image from "next/image";
-// import { useRouter } from "next/navigation";
 
 import projectDetails from "@/data/projectDetails";
 
@@ -10,6 +7,17 @@ const ProjectDetailsPage = ({ params }) => {
   const projectData = projectDetails.find(
     (project) => project.slug === params.slug
   );
+
+  if (projectData === undefined) {
+    return (
+      <div className="container mx-auto px-4 py-16 text-center min-h-[60vh]">
+        <h1 className="text-4xl font-bold mb-4">Project Not Found</h1>
+        <p className="text-xl text-gray-600">
+          The project you are looking for does not exist.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div className="flex flex-col min-h-screen">

@@ -4,6 +4,12 @@ import Link from "next/link";
 import OurTeam from "@/components/OurTeam";
 import Head from "next/head";
 
+export const metadata = {
+  title: "About GUMUH",
+  description:
+    "Learn more about GUMUH, a pioneering Cameroonian software startup founded in 2020.",
+};
+
 const AboutPage = () => {
   return (
     <>

@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "GUMUH - Empowering Africa's Digital Future",
   description:
     "GUMUH is a leading Cameroonian tech startup providing cutting-edge software solutions to drive digital transformation across Africa.",
   keywords:
@@ -39,11 +38,10 @@ export default function RootLayout({ children }) {
         <link rel="canonical" href="https://www.gumuh.com" />
         <meta name="msvalidate.01" content="51B301548E48430DA3B98E022CD18ECC" />
         <meta charSet="UTF-8" />
-        <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
         <meta name="author" content={metadata.author} />
         <meta name="robots" content={metadata.robots} />
-        <meta property="og:title" content={metadata.openGraph.title} />
+        {/* <meta property="og:title" content={metadata.openGraph.title} /> */}
         <meta
           property="og:description"
           content={metadata.openGraph.description}
