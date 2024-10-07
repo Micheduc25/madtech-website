@@ -37,6 +37,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="canonical" href="https://www.gumuh.com" />
+        <meta name="msvalidate.01" content="51B301548E48430DA3B98E022CD18ECC" />
         <meta charSet="UTF-8" />
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
