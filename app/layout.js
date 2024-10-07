@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  title: "GUMUH - Empowering Africa's Digital Future",
   description:
     "GUMUH is a leading Cameroonian tech startup providing cutting-edge software solutions to drive digital transformation across Africa.",
   keywords:
