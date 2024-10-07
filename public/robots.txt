@@ -1,8 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
-# Disallow crawling of admin pages
-Disallow: /admin/
+# Host
+Host: https://www.gumuh.com
 
-# Sitemap location
+# Sitemaps
 Sitemap: https://www.gumuh.com/sitemap.xml

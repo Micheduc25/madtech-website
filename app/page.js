@@ -139,6 +139,15 @@ const HomePage = () => {
                   <p>National Awards</p>
                 </div>
               </div>
+
+              <div className="text-center mt-8">
+                <Link
+                  href="/about"
+                  className="bg-blue-900 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors"
+                >
+                  Learn More
+                </Link>
+              </div>
             </div>
           </section>
 
