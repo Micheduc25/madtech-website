@@ -24,7 +24,7 @@ const OurTeam = () => {
     {
       name: "Ndjock Michel",
       role: "Founder & CEO",
-      image: "/images/ndjockjunior.jpeg",
+      image: "/images/ndjockjunior.jpg",
       bio: "With a Masters of Engineering Science in Software Engineering from NAHPI, Ndjock has over 10 years of experience in Software Development and Cloud DevOps. He founded GUMUH with a vision to drive technological innovation in Cameroon and across Africa.",
     },
     {
@@ -60,7 +60,7 @@ const OurTeam = () => {
     {
       name: "Ndogmo Kevin",
       role: "Lead Backend Developer",
-      image: "/images/team/omar.jpg",
+      image: "/images/kevin.jpg",
       bio: "Kevin is a highly skilled backend developer with expertise in building scalable and efficient server-side applications. With a strong understanding of databases and APIs, Kevin ensures that our backend systems are robust and performant. His problem-solving skills and attention to detail make him an invaluable member of our team.",
     },
   ];

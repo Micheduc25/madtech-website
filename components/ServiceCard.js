@@ -7,13 +7,17 @@ const ServiceCard = ({ id, title, description, icon, color, styleColor }) => {
       style={{ backgroundColor: styleColor ? styleColor : "" }}
       className={`${color} rounded-lg shadow-lg overflow-hidden`}
     >
-      <div className="p-6">
-        <div className="text-4xl mb-4">{icon}</div>
-        <h3 className="text-xl font-semibold mb-2 text-white">{title}</h3>
-        <p className="text-white mb-4">{description}</p>
+      <div className="p-6 flex flex-col items-center md:items-start">
+        <div className="text-4xl mb-4 text-center md:text-left">{icon}</div>
+        <h3 className="text-xl font-semibold mb-2 text-white text-center md:text-left">
+          {title}
+        </h3>
+        <p className="text-white mb-4 text-center md:text-left">
+          {description}
+        </p>
         <Link
           href={`/services/${id}`}
-          className="inline-block bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition duration-300"
+          className="inline-block bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 text-center md:text-left"
         >
           Learn More
         </Link>
